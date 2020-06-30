@@ -56,6 +56,10 @@ SegmentationClassRawa dataset in same folder of SegmentationClass.
 
 14) do changes in train-pqr.sh file and run command sh train-pqr.sh or search error in train.py file. 
 
+Note:  While running the train.sh bash command, have encountere with error:-- 
+Not found: Key xception_65/entry_flow/block1/unit_1/xception_module/separable_conv1_depthwise/BatchNorm/beta not found in checkpoint.
+It means either datset preparation is missing or we have an error in model_variant="xception_65" .
+
 
 for checking the results if model is running...........goto.....PQR...exp.....train_ckpt folder
 
